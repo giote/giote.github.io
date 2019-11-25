@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello Gridea | Gridea</title>
 <meta name="description" content="温故而知新" />
-<link rel="shortcut icon" href="https://giote.github.io/favicon.ico?v=1573631856414">
+<link rel="shortcut icon" href="https://giote.github.io/favicon.ico?v=1574647026113">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://giote.github.io/styles/main.css">
@@ -20,7 +20,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://giote.github.io">
-  <img class="avatar" src="https://giote.github.io/images/avatar.png?v=1573631856414" alt="">
+  <img class="avatar" src="https://giote.github.io/images/avatar.png?v=1574647026113" alt="">
   </a>
   <h1 class="site-title">
     Gridea
@@ -38,19 +38,19 @@
     
       
         <a href="/archives" class="menu">
-          归档
+          作品品读
         </a>
       
     
       
         <a href="/tags" class="menu">
-          标签
+          生活见闻
         </a>
       
     
       
         <a href="/post/about" class="menu">
-          关于
+          关于我
         </a>
       
     
@@ -132,6 +132,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'giote',
+    clientSecret: 'giote.github.io',
+    repo: 'giote 1',
+    owner: 'giote.github.io',
+    admin: ['giote.github.io'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
