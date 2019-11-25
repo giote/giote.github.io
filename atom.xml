@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://giote.github.io</id>
-    <title>Gridea</title>
-    <updated>2019-11-25T02:22:24.658Z</updated>
+    <title>Giote&apos;s blog</title>
+    <updated>2019-11-25T02:23:48.643Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://giote.github.io"/>
     <link rel="self" href="https://giote.github.io/atom.xml"/>
     <subtitle>爱生活 爱设计</subtitle>
     <logo>https://giote.github.io/images/avatar.png</logo>
     <icon>https://giote.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Gridea</rights>
+    <rights>All rights reserved 2019, Giote&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[毕业三年的职业小结]]></title>
         <id>https://giote.github.io/post/bi-ye-san-nian-de-zhi-ye-xiao-jie</id>
